@@ -1,0 +1,61 @@
+{
+  "expo": {
+    "name": "Jelačićeva Potkova",
+    "slug": "jelacics-horseshoe",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "backgroundColor": "#8B4513",
+    "scheme": "jelacics-horseshoe",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.jelacic.horseshoe",
+      "buildNumber": "1",
+      "deploymentTarget": "13.0",
+      "infoPlist": {
+        "NSCameraUsageDescription": "This app uses the camera for AR selfies with historical mustaches.",
+        "NSLocationWhenInUseUsageDescription": "This app uses location to discover historical treasures near you.",
+        "NSPhotoLibraryUsageDescription": "This app saves AR selfie photos to your photo library.",
+        "NSMicrophoneUsageDescription": "This app may use microphone for camera functionality.",
+        "CFBundleDisplayName": "Jelačićeva Potkova",
+        "CFBundleName": "Jelačićeva Potkova"
+      }
+    },
+    "android": {
+      "backgroundColor": "#8B4513",
+      "package": "com.jelacic.horseshoe",
+      "versionCode": 1,
+      "permissions": [
+        "CAMERA",
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "WRITE_EXTERNAL_STORAGE",
+        "READ_EXTERNAL_STORAGE"
+      ]
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow Jelačićeva Potkova to access your camera for AR selfies with historical mustaches."
+        }
+      ],
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow Jelačićeva Potkova to use your location for treasure hunting."
+        }
+      ],
+      [
+        "expo-media-library",
+        {
+          "photosPermission": "Allow Jelačićeva Potkova to save AR selfie photos to your photo library.",
+          "savePhotosPermission": "Allow Jelačićeva Potkova to save photos."
+        }
+      ]
+    ]
+  }
+}

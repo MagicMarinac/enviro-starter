@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Jelačićeva Potkova</string>
+    <string name="expo_camera_permission_message">Allow Jelačićeva Potkova to access your camera for AR selfies with historical mustaches.</string>
+    <string name="expo_location_permission_message">Allow Jelačićeva Potkova to use your location for treasure hunting.</string>
+</resources>

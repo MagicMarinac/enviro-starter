@@ -11,6 +11,10 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		F1C89AD459B0449799BAA00B /* SplineSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 709282E7E46A4DA18620599B /* SplineSans-Bold.ttf */; };
+		4499BC55CD134475AC071545 /* SplineSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 75BD48D86E774C3B8EDB1FA8 /* SplineSans-Medium.ttf */; };
+		654387C161464C24B53AEFE5 /* SplineSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6A2E6F227DFE425BAAD713B6 /* SplineSans-Regular.ttf */; };
+		643DFD6735CA45B0A84C9F8E /* SplineSans-Variable.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EBE0D4D7F6CF40C4A31D3000 /* SplineSans-Variable.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		761780EC2CA45674006654EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Enviro/AppDelegate.swift; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Enviro/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		709282E7E46A4DA18620599B /* SplineSans-Bold.ttf */ = {isa = PBXFileReference; name = "SplineSans-Bold.ttf"; path = "../src/assets/fonts/SplineSans-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		75BD48D86E774C3B8EDB1FA8 /* SplineSans-Medium.ttf */ = {isa = PBXFileReference; name = "SplineSans-Medium.ttf"; path = "../src/assets/fonts/SplineSans-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6A2E6F227DFE425BAAD713B6 /* SplineSans-Regular.ttf */ = {isa = PBXFileReference; name = "SplineSans-Regular.ttf"; path = "../src/assets/fonts/SplineSans-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		EBE0D4D7F6CF40C4A31D3000 /* SplineSans-Variable.ttf */ = {isa = PBXFileReference; name = "SplineSans-Variable.ttf"; path = "../src/assets/fonts/SplineSans-Variable.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +82,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				D4D93B8D6E514640A303B812 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -96,6 +105,18 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
+		};
+		D4D93B8D6E514640A303B812 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				709282E7E46A4DA18620599B /* SplineSans-Bold.ttf */,
+				75BD48D86E774C3B8EDB1FA8 /* SplineSans-Medium.ttf */,
+				6A2E6F227DFE425BAAD713B6 /* SplineSans-Regular.ttf */,
+				EBE0D4D7F6CF40C4A31D3000 /* SplineSans-Variable.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -159,6 +180,10 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				F1C89AD459B0449799BAA00B /* SplineSans-Bold.ttf in Resources */,
+				4499BC55CD134475AC071545 /* SplineSans-Medium.ttf in Resources */,
+				654387C161464C24B53AEFE5 /* SplineSans-Regular.ttf in Resources */,
+				643DFD6735CA45B0A84C9F8E /* SplineSans-Variable.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

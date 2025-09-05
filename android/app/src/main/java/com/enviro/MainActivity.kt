@@ -1,4 +1,4 @@
-package com.enviro
+package hr.magicmarinac.enviro
 
 import com.facebook.react.ReactActivity
 import com.facebook.react.ReactActivityDelegate

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "820952140046",
+    "project_id": "enviro-c573b",
+    "storage_bucket": "enviro-c573b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:820952140046:android:287da8df86c25eb1b6ef5f",
+        "android_client_info": {
+          "package_name": "hr.magicmarinac.enviro"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAO-3iwTrpoRZnJWKARTzTCcN0Cl5oSw94"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,4 +1,4 @@
-package com.enviro
+package hr.magicmarinac.enviro
 
 import android.app.Application
 import com.facebook.react.PackageList
